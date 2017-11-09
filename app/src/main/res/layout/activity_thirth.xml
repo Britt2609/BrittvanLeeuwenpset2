@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.britt.brittvanleeuwenpset2.ThirthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textwords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp"
+            android:text="Fill in the words to complete the story:"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/wordCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fillwords"
+                android:layout_width="202dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:hint="word"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                tools:layout_editor_absoluteX="dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <Button
+                android:id="@+id/send_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:backgroundTint="#00FFAA"
+                android:text="OK"
+                android:onClick="Refresh"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wordType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

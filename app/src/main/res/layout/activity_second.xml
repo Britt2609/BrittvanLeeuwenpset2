@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.example.britt.brittvanleeuwenpset2.SecondActivity">
+
+    <ImageView
+        android:id="@+id/lips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/lips"
+        android:layout_marginTop="60dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Choose the story you want to write:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="241dp">
+
+    </TextView>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+
+        <Button
+            android:id="@+id/clothesstory"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="#00FFAA"
+            android:text="@string/clothes"
+            android:textColor="@android:color/background_dark"
+            android:onClick="goToThirth"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <Button
+            android:id="@+id/dancestory"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="#00FFAA"
+            android:text="@string/dance"
+            android:textColor="@android:color/background_dark"
+            android:onClick="goToThirth"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <Button
+            android:id="@+id/randomstory"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="#00FFAA"
+            android:onClick="goToThirth"
+            android:text="@string/random"
+            android:textColor="@android:color/background_dark"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <Button
+            android:id="@+id/simplestory"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/simple"
+            android:textColor="@android:color/background_dark"
+            android:onClick="goToThirth"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <Button
+            android:id="@+id/tarzanstory"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="#00FFAA"
+            android:text="@string/tarzan"
+            android:textColor="@android:color/background_dark"
+            android:onClick="goToThirth"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <Button
+            android:id="@+id/universitystory"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="#00FFAA"
+            android:text="@string/university"
+            android:textColor="@android:color/background_dark"
+            android:onClick="goToThirth"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="415dp" />
+    </GridLayout>
+
+</LinearLayout>
