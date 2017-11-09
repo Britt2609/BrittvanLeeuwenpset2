@@ -65,8 +65,7 @@ public class ThirthActivity extends AppCompatActivity {
         word.setText("Fill in a/an " + story.getNextPlaceholder());
 
     }
-
-
+    
 
 
     public void Refresh(View view) {
