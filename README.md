@@ -10,12 +10,12 @@ The app works in normal view and landscape view, as shown below in the screensho
 ![screenshot app](doc/screenshot1.jpeg)
 ![screenshot app](doc/screenshot2.jpeg)
 ![screenshot app](doc/screenshot3.jpeg)
-![screenshot app](doc/screenshot4.jpeg)
-![screenshot app](doc/screenshot5.jpeg)
 ![screenshot app](doc/screenshot6.jpeg)
+![screenshot app](doc/screenshot9.jpeg)
+![screenshot app](doc/screenshot4.jpeg)
 ![screenshot app](doc/screenshot7.jpeg)
 ![screenshot app](doc/screenshot8.jpeg)
-![screenshot app](doc/screenshot9.jpeg)
+![screenshot app](doc/screenshot5.jpeg)
 ![screenshot app](doc/screenshot10.jpeg)
 
 
