@@ -58,6 +58,5 @@ public class SecondActivity extends AppCompatActivity {
 
         intent.putExtra("story", choose_story);
         startActivity(intent);
-        finish();
     }
 }
