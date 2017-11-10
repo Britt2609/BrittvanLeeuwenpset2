@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="30dp"
         android:fontFamily="casual"
-        android:text="Your mad lip story!"
+        android:text="Your mad lib story!"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="30sp"
