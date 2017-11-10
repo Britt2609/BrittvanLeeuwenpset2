@@ -33,7 +33,7 @@ public class Story implements Serializable {
         text = "";
         placeholders = new ArrayList<String>();
         filledIn = 0;
-        htmlMode = false;
+        htmlMode = true;
         clear();
     }
 
@@ -95,7 +95,7 @@ public class Story implements Serializable {
                 // a placeholder; replace with e.g. "<0>" so I can find/replace it easily later
                 // (make them bold so that they stand out!)
                 if (htmlMode) {
-                    text += " <b><" + placeholders.size() + "></b>";
+                    text += " <b><font color = '#00FFAA'><" + placeholders.size() + "></font></b>";
                 } else {
                     text += " <" + placeholders.size() + ">";
                 }

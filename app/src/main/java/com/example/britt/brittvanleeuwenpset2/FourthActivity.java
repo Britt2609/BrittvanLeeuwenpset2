@@ -3,6 +3,7 @@ package com.example.britt.brittvanleeuwenpset2;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
 
@@ -17,7 +18,7 @@ public class FourthActivity extends AppCompatActivity {
         String complete = intent.getStringExtra("story");
 
         TextView stor = (TextView) findViewById(R.id.complete_story);
-        stor.setText(complete);
+        stor.setText(Html.fromHtml(complete));
     }
 
     public void CreateNewStory(View view) {

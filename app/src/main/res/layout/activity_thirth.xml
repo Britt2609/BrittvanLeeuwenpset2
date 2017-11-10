@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="50dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
             android:text="Fill in the words to complete the story:"
             android:textAlignment="center"
             android:textColor="@android:color/background_light"
@@ -31,9 +32,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
             android:ems="10"
+            android:fontFamily="casual"
             android:inputType="textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wordType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:fontFamily="casual"
             android:text=""
             android:textAlignment="center"
             android:textColor="@android:color/background_light"
@@ -69,17 +84,6 @@
                 android:text="OK"
                 android:onClick="Refresh"/>
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/wordType"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:ems="10"
-            android:text=""
-            android:textAlignment="center"
-            android:textColor="@android:color/background_light"
-            android:textSize="18sp" />
 
 
     </LinearLayout>

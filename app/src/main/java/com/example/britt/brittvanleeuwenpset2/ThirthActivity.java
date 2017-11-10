@@ -65,7 +65,7 @@ public class ThirthActivity extends AppCompatActivity {
         word.setText("Fill in a/an " + story.getNextPlaceholder());
 
     }
-    
+
 
 
     public void Refresh(View view) {
@@ -83,7 +83,9 @@ public class ThirthActivity extends AppCompatActivity {
                 intent.putExtra("story", completeStory);
                 startActivity(intent);
                 finish();
-            } else {
+            }
+
+            else {
 
                 TextView count = (TextView) findViewById(R.id.wordCount);
 
